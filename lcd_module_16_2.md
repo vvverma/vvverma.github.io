@@ -1,24 +1,16 @@
 
-title: LCD  Module (JH162a ) (16x2)
-
-- [Heading](#heading)
-- [Heading](#heading-1)
-- [Heading](#heading-2)
-  adss
-
-
-
-
-
 # Table of Contents
-- [Modes in 16X2 LCD](#Modes-in-16X2-LCD)
-- [Types of Memory in LCD](#Types-of-Memory-in-LCD)
-- [Pin Description](#Pin-Description)
-- [Reference](#fourth-examplehttpwwwfourthexamplecom)
+
+- [Modes in 16X2 LCD](#modes-in-16x2-lcd)
+- [Types of Memory in LCD](#types-of-memory-in-lcd)
+- [Pin Description](#pin-description)
+- [Reference](#reference)
 
 <!-- toc -->
 
+
 ## Modes in 16X2 LCD
+
 LCD operates in two modes, which are as follows
 
     1) 4-bit mode
@@ -29,7 +21,7 @@ LCD operates in two modes, which are as follows
         8-bit mode is used to for faster GPIO data/commad transfer. 
         Drawback for 8-bit mode is more number of GPIO pins are needed.
 
-# Types of Memory in LCD
+## Types of Memory in LCD
 
     1) Display Data RAM (DDRAM)
         DDRAM is used to display character on the LCD. It decodes instruction or command from IR of the LCD Controller
@@ -40,7 +32,7 @@ LCD operates in two modes, which are as follows
     3) Character Generator RAM (CGRAM)
         CGRAM is used if we want a customized font the LCD Display. We just have to load the array to the CGRAM address. 
 
-# Pin Description
+## Pin Description
 
 |Pin#	|Label		|Value		|Description|
 |----------|----------------|----------------|--------------|
@@ -62,4 +54,4 @@ LCD operates in two modes, which are as follows
 |1 		|VSS 		|0V 			|Ground|
 
 
-# [Reference](http://www.google.com) 
+## Reference
