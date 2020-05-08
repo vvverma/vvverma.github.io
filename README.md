@@ -4,7 +4,9 @@ You can use the [editor on GitHub](https://github.com/vvverma/vvverma.github.io/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 ## Link to next page
-[LCD Module information](lcd_module_16_2.md)
+* [LCD Module information](lcd_module_16_2.md)
+* [General Embedded Linux Boot Sequence](boot_process.md)
+
 
 ## Test
 - [Heading](#heading)
