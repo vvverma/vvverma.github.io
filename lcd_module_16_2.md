@@ -6,7 +6,8 @@ title: LCD  Module (JH162a ) (16x2)
 - [Types of Memory in LCD](#Types-of-Memory-in-LCD)
 - [Pin Description](#Pin-Description)
 - [Reference](#fourth-examplehttpwwwfourthexamplecom)
-<!-- toc -->
+
+<!-- TOC -->
 
 ## Modes in 16X2 LCD
 LCD operates in two modes, which are as follows
