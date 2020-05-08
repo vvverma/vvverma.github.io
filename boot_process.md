@@ -1,8 +1,6 @@
 # General Embedded Linux Boot Sequence
 
-
-
-{:toc}
+<!-- toc -->
 
 ## Power ON Reset
 
