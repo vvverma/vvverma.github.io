@@ -1,6 +1,14 @@
 # General Embedded Linux Boot Sequence
+- [Power ON Reset](#power-on-reset)
+- [ROM Boot Loader](#rom-boot-loader)
+- [Secondary Program Loader Second Stage Bootloader runs out of internal SRAM](#secondary-program-loader-second-stage-bootloader-runs-out-of-internal-sram)
+- [Third Program Loader i.e. UBoot runs out of DDR](#third-program-loader-ie-uboot-runs-out-of-ddr)
+- [Linux Kernel runs out of DDR](#linux-kernel-runs-out-of-ddr)
+- [Root File System can boot from SD Flash Network RAM e-MMC](#root-file-system-can-boot-from-sd-flash-network-ram-e-mmc)
+- [Questions Related to Booting](#questions-related-to-booting)
 
 <!-- toc -->
+
 
 ## Power ON Reset
 
@@ -21,7 +29,7 @@ Summary for ROM code functions-
 * Copy MLO/ boot.bin/ SPL into the internal SRAM of the chip
 * Execute "MLO" or "SPL"
 
-## Secondary Program Loader/ Second Stage Bootloader runs out of internal SRAM
+## Secondary Program Loader Second Stage Bootloader runs out of internal SRAM
 
 Summary of Initialization by SPL -
 
@@ -55,7 +63,7 @@ We can read the linux uImage header on uboot hash shell by loading image in ram 
 Linux bootstrap loader which uncompresses the Linux kernel.
 
 
-## Root File System can boot from SD/Flash/Network/RAM/e-MMC
+## Root File System can boot from SD Flash Network RAM e-MMC
 
 
 
