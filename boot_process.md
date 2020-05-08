@@ -2,7 +2,7 @@
 
 
 
-[TOC]
+{:toc}
 
 ## Power ON Reset
 
