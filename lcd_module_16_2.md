@@ -1,5 +1,5 @@
 
-LCD  Module (JH162a ) (16x2)
+title: LCD  Module (JH162a ) (16x2)
 
 # Table of Contents
 - [Modes in 16X2 LCD](#Modes-in-16X2-LCD)
