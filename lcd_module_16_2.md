@@ -13,24 +13,29 @@
 
 LCD operates in two modes, which are as follows
 
-    1) 4-bit mode
-        4-bit mode is used to save GPIO Interfacing pins on the host side controller. 
-        Drawback for 4-bit mode is slow data or command transfer to the LCD controller. In order to sent 1byte data it takes double time than 8-bit mode
+1) *4-bit mode*
 
-    2) 8-bit mode
-        8-bit mode is used to for faster GPIO data/commad transfer. 
-        Drawback for 8-bit mode is more number of GPIO pins are needed.
+    4-bit mode is used to save GPIO Interfacing pins on the host side controller. 
+    Drawback for 4-bit mode is slow data or command transfer to the LCD controller.
+    In order to sent 1byte data it takes double time than 8-bit mode
+
+2) *8-bit mode*
+
+    8-bit mode is used to for faster GPIO data/commad transfer. 
+    Drawback for 8-bit mode is more number of GPIO pins are needed.
 
 ## Types of Memory in LCD
 
-    1) Display Data RAM (DDRAM)
-        DDRAM is used to display character on the LCD. It decodes instruction or command from IR of the LCD Controller
+1) *Display Data RAM (DDRAM)*
 
-    2) Character Generator ROM (CGROM)
-        CGROM is responsible to convert ASCII character Hex to 5x7 or 5x8 dot matrix pattern. It has all pre-programmed supported character in the CGROM.
+    DDRAM is used to display character on the LCD. It decodes instruction or command from IR of the LCD Controller
 
-    3) Character Generator RAM (CGRAM)
-        CGRAM is used if we want a customized font the LCD Display. We just have to load the array to the CGRAM address. 
+2) *Character Generator ROM (CGROM)*
+
+    CGROM is responsible to convert ASCII character Hex to 5x7 or 5x8 dot matrix pattern. It has all pre-programmed supported character in the CGROM.
+
+3) *Character Generator RAM (CGRAM)*
+    CGRAM is used if we want a customized font the LCD Display. We just have to load the array to the CGRAM address. 
 
 ## Pin Description
 
