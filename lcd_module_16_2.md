@@ -1,11 +1,11 @@
-		  LCD  Module (JH162a ) (16x2)
+
+LCD  Module (JH162a ) (16x2)
 
 # Table of Contents
-* [Modes in 16X2 LCD](#Modes-in-16X2-LCD)
-* [Types of Memory in LCD](#Types-of-Memory-in-LCD)
-* [Pin Description](#Pin-Description)
-* [Reference](#fourth-examplehttpwwwfourthexamplecom)
-
+- [Modes in 16X2 LCD](#Modes-in-16X2-LCD)
+- [Types of Memory in LCD](#Types-of-Memory-in-LCD)
+- [Pin Description](#Pin-Description)
+- [Reference](#fourth-examplehttpwwwfourthexamplecom)
 <!-- toc -->
 
 ## Modes in 16X2 LCD
