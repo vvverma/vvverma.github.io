@@ -1,8 +1,7 @@
 # 							ARMv8-A: Exception Model
 
-* TOC{:toc}
-
-
+* TOC
+{:toc}
 
 ## Privilege and Exception levels
 
