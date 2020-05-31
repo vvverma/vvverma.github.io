@@ -254,6 +254,12 @@ If taken from a lower exception level, the execution state of the level below th
 
 ​	For example: Exception taken from EL0 to EL2, instruction block depend on execution state of EL1
 
+
+
 ## References
 
-https://developer.arm.com/architectures/learn-the-architecture/exception-model
+[ARMv8-A Learn the Architecture]: https://developer.arm.com/architectures/learn-the-architecture/exception-model
+
+
+
+
