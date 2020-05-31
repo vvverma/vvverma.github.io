@@ -1,6 +1,6 @@
 # 							ARMv8-A: Exception Model
 
-[TOC]
+* TOC{:toc}
 
 
 
