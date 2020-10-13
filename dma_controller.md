@@ -33,12 +33,12 @@ The DMA can be used with the main peripherals:
 
 ### Direct Memory Access Block Diagram
 
-|![img] (/assets/dma-contoller/block-diagram-dma.png)|
+|![] (./assets/dma-controller/block-diagram-dma.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
 ### Multi-AHB bus matrix
-|![img] ({{ site.url }}/assets/dma-contoller/ahb-bus-matrix.png)|
+|![img] ({{ site.url }}/assets/dma-controller/ahb-bus-matrix.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
