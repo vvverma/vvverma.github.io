@@ -66,17 +66,17 @@ A Stream can be configured to perform transactions as follows -
 Each Stream is associated with a DMA request that can be selected out of 8 possible channel requests
 
 ### Channel Mapping in DMA
-|![img] ({{ site.url }}/assets/dma-contoller/channel-selection-dma.png)|
+|![img] ({{site.url}}/assets/dma-controller/channel-selection-dma.png)|
 |:--:|
 | *Channel Selection Internals*|
 
 Register needed to configure this is DMA_SxCR  ()where x is the number from 0 to 7
 
-|![img] ({{ site.url }}/assets/dma-contoller/request-mapping-dma1.png)|
+|![img] ({{ site.url }}/assets/dma-controller/request-mapping-dma1.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
-|![img] ({{ site.url }}/assets/dma-contoller/request-mapping-dma2.png)|
+|![img] ({{ site.url }}/assets/dma-controller/request-mapping-dma2.png)|
 |:--:|
 |*DMA2 Request mapping*|
 
@@ -84,7 +84,7 @@ Register needed to configure this is DMA_SxCR  ()where x is the number from 0 to
 
 ### Peripheral to Memory Data Transfer
 
-|![Peripheral to Memory Mode] ({{ site.url }}/assets/dma-contoller/peripheral-to-mem-dma.png "Peripheral Mode")|
+|![Peripheral to Memory Mode] (/assets/dma-controller/peripheral-to-mem-dma.png "Peripheral Mode")|
 |:--:|
 |*Peripheral to Memory Mode*|
 
@@ -107,7 +107,7 @@ Advantages for using FIFO mode are as follows-
 
 ### Memory to Peripheral Data Transfer
 
-|![Memory to Peripheral Mode] ({{ site.url }}/assets/dma-contoller/mem-to-peripheral-dma.png )|
+|![Memory to Peripheral Mode] ({{ site.url }}/assets/dma-controller/mem-to-peripheral-dma.png )|
 |:--:|
 |*Memory to Peripheral Mode*|
 
