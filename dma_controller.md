@@ -39,7 +39,7 @@ The DMA can be used with the main peripherals:
 | *DMA1 Request mapping*|
 
 ### Multi-AHB bus matrix
-|![img] ({{ site.url }}/assets/dma-controller/ahb-bus-matrix.png)|
+|![img] (/ahb-bus-matrix.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
