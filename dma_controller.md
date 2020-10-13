@@ -1,6 +1,9 @@
 Direct Memory Access Controller
 ===============================
 
+* TOC
+{:toc}
+
 The devices feature two general-purpose dual-port DMAs (DMA1 and DMA2) with 8
 streams each. They are able to manage memory-to-memory, peripheral-to-memory and
 memory-to-peripheral transfers. They feature dedicated FIFOs for APB/AHB peripherals,
