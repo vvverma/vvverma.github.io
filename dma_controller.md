@@ -33,7 +33,7 @@ The DMA can be used with the main peripherals:
 
 ### Direct Memory Access Block Diagram
 
-![] ({{ site.url }}/assets/block-diagram-dma.png)
+![] (https://vvverma.github.io/assets/block-diagram-dma.png)
 
 |:--:|
 | *DMA1 Request mapping*|
