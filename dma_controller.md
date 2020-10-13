@@ -106,7 +106,7 @@ Advantages for using FIFO mode are as follows-
 
 ### Memory to Peripheral Data Transfer
 
-|![Memory to Peripheral Mode] (/_images/dma-contoller/mem-to-peripheral-dma.png )|
+|![Memory to Peripheral Mode] (_images/dma-contoller/mem-to-peripheral-dma.png )|
 |:--:|
 |*Memory to Peripheral Mode*|
 
