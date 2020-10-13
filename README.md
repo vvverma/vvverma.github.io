@@ -1,8 +1,4 @@
-* TOC
-{:toc}
-
-
-## Reference Articles
+# Table of Contents
 * [ARMv8-A: Exception Model](arm_v8_a_exception_model.md)
 * [DMA Controller](dma_controller.md)
 * [General Embedded Linux Boot Sequence](boot_process.md)
