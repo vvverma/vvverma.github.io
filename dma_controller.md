@@ -33,15 +33,14 @@ The DMA can be used with the main peripherals:
 
 ### Direct Memory Access Block Diagram
 
-![block diagram](https://vvverma.github.io/assets/block-diagram-dma.png)
-
+|![block diagram for dma](https://vvverma.github.io/assets/dma-controller/block-diagram-dma.png)|
 |:--:|
-| *DMA1 Request mapping*|
+|*Block Diagram*|
 
 ### Multi-AHB bus matrix
-|![img] (/ahb-bus-matrix.png)|
+|![Multi AHB bus Matrix](/assets/dma-controller/ahb-bus-matrix.png)|
 |:--:|
-| *DMA1 Request mapping*|
+|*AHB Bus Matrix*|
 
 The 32-bit multi-AHB bus matrix interconnects all the masters (CPU, DMAs, USB HS) and
 the slaves Flash memory, RAM, QuadSPI, FMC, AHB and APB peripherals and ensures a
@@ -66,17 +65,17 @@ A Stream can be configured to perform transactions as follows -
 Each Stream is associated with a DMA request that can be selected out of 8 possible channel requests
 
 ### Channel Mapping in DMA
-|![img] ({{site.url}}/assets/dma-controller/channel-selection-dma.png)|
+|![img](/assets/dma-controller/channel-selection-dma.png)|
 |:--:|
 | *Channel Selection Internals*|
 
 Register needed to configure this is DMA_SxCR  ()where x is the number from 0 to 7
 
-|![img] ({{ site.url }}/assets/dma-controller/request-mapping-dma1.png)|
+|![img](/assets/dma-controller/request-mapping-dma1.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
-|![img] ({{ site.url }}/assets/dma-controller/request-mapping-dma2.png)|
+|![img](/assets/dma-controller/request-mapping-dma2.png)|
 |:--:|
 |*DMA2 Request mapping*|
 
@@ -84,7 +83,7 @@ Register needed to configure this is DMA_SxCR  ()where x is the number from 0 to
 
 ### Peripheral to Memory Data Transfer
 
-|![Peripheral to Memory Mode] (/assets/dma-controller/peripheral-to-mem-dma.png "Peripheral Mode")|
+|![Peripheral to Memory Mode](/assets/dma-controller/peripheral-to-mem-dma.png "Peripheral Mode")|
 |:--:|
 |*Peripheral to Memory Mode*|
 
@@ -107,7 +106,7 @@ Advantages for using FIFO mode are as follows-
 
 ### Memory to Peripheral Data Transfer
 
-|![Memory to Peripheral Mode] ({{ site.url }}/assets/dma-controller/mem-to-peripheral-dma.png )|
+|![Memory to Peripheral Mode](/assets/dma-controller/mem-to-peripheral-dma.png )|
 |:--:|
 |*Memory to Peripheral Mode*|
 
