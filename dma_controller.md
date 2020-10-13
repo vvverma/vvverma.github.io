@@ -1,5 +1,4 @@
-Direct Memory Access Controller
-===============================
+# Direct Memory Access Controller
 
 * TOC
 {:toc}
@@ -32,14 +31,14 @@ The DMA can be used with the main peripherals:
 * QuadSPI
 
 
-## Direct Memory Access Block Diagram
+### Direct Memory Access Block Diagram
 
 |![img] (/assets/dma-contoller/block-diagram-dma.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
-##Multi-AHB bus matrix
-|![img] ({{ site.url }}/_images/dma-contoller/ahb-bus-matrix.png)|
+### Multi-AHB bus matrix
+|![img] ({{ site.url }}/assets/dma-contoller/ahb-bus-matrix.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
@@ -66,17 +65,17 @@ A Stream can be configured to perform transactions as follows -
 Each Stream is associated with a DMA request that can be selected out of 8 possible channel requests
 
 ### Channel Mapping in DMA
-|![img] ({{ site.url }}/_images/dma-contoller/channel-selection-dma.png)|
+|![img] ({{ site.url }}/assets/dma-contoller/channel-selection-dma.png)|
 |:--:|
 | *Channel Selection Internals*|
 
 Register needed to configure this is DMA_SxCR  ()where x is the number from 0 to 7
 
-|![img] ({{ site.url }}/_images/dma-contoller/request-mapping-dma1.png)|
+|![img] ({{ site.url }}/assets/dma-contoller/request-mapping-dma1.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
-|![img] ({{ site.url }}/_images/dma-contoller/request-mapping-dma2.png)|
+|![img] ({{ site.url }}/assets/dma-contoller/request-mapping-dma2.png)|
 |:--:|
 |*DMA2 Request mapping*|
 
@@ -84,7 +83,7 @@ Register needed to configure this is DMA_SxCR  ()where x is the number from 0 to
 
 ### Peripheral to Memory Data Transfer
 
-|![Peripheral to Memory Mode] ({{ site.url }}/_images/dma-contoller/peripheral-to-mem-dma.png "Peripheral Mode")|
+|![Peripheral to Memory Mode] ({{ site.url }}/assets/dma-contoller/peripheral-to-mem-dma.png "Peripheral Mode")|
 |:--:|
 |*Peripheral to Memory Mode*|
 
@@ -107,7 +106,7 @@ Advantages for using FIFO mode are as follows-
 
 ### Memory to Peripheral Data Transfer
 
-|![Memory to Peripheral Mode] ({{ site.url }}/_images/dma-contoller/mem-to-peripheral-dma.png )|
+|![Memory to Peripheral Mode] ({{ site.url }}/assets/dma-contoller/mem-to-peripheral-dma.png )|
 |:--:|
 |*Memory to Peripheral Mode*|
 
