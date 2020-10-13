@@ -1,5 +1,3 @@
-_images/dma-controller
-
 Direct Memory Access Controller
 ===============================
 
@@ -33,12 +31,12 @@ The DMA can be used with the main peripherals:
 
 ## Direct Memory Access Block Diagram
 
-|![img] (file:///home/vvverma/screen-shots-stm32f446rexx/block-diagram-dma.png)|
+|![img] ({{ site.url }}/_images/dma-contoller/block-diagram-dma.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
 ##Multi-AHB bus matrix
-|![img] (file:///home/vvverma/screen-shots-stm32f446rexx/ahb-bus-matrix.png)|
+|![img] ({{ site.url }}/_images/dma-contoller/ahb-bus-matrix.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
@@ -65,17 +63,17 @@ A Stream can be configured to perform transactions as follows -
 Each Stream is associated with a DMA request that can be selected out of 8 possible channel requests
 
 ### Channel Mapping in DMA
-|![img] (file:///home/vvverma/screen-shots-stm32f446rexx/channel-selection-dma.png)|
+|![img] ({{ site.url }}/_images/dma-contoller/channel-selection-dma.png)|
 |:--:|
 | *Channel Selection Internals*|
 
 Register needed to configure this is DMA_SxCR  ()where x is the number from 0 to 7
 
-|![img] (file:///home/vvverma/screen-shots-stm32f446rexx/request-mapping-dma1.png)|
+|![img] ({{ site.url }}/_images/dma-contoller/request-mapping-dma1.png)|
 |:--:|
 | *DMA1 Request mapping*|
 
-|![img] (file:///home/vvverma/screen-shots-stm32f446rexx/request-mapping-dma2.png)|
+|![img] ({{ site.url }}/_images/dma-contoller/request-mapping-dma2.png)|
 |:--:|
 |*DMA2 Request mapping*|
 
@@ -83,7 +81,7 @@ Register needed to configure this is DMA_SxCR  ()where x is the number from 0 to
 
 ### Peripheral to Memory Data Transfer
 
-|![Peripheral to Memory Mode] (file:///home/vvverma/screen-shots-stm32f446rexx/peripheral-to-mem-dma.png "Peripheral Mode")|
+|![Peripheral to Memory Mode] ({{ site.url }}/_images/dma-contoller/peripheral-to-mem-dma.png "Peripheral Mode")|
 |:--:|
 |*Peripheral to Memory Mode*|
 
@@ -106,7 +104,7 @@ Advantages for using FIFO mode are as follows-
 
 ### Memory to Peripheral Data Transfer
 
-|![Memory to Peripheral Mode] ({{ site.url }}_images/dma-contoller/mem-to-peripheral-dma.png )|
+|![Memory to Peripheral Mode] ({{ site.url }}/_images/dma-contoller/mem-to-peripheral-dma.png )|
 |:--:|
 |*Memory to Peripheral Mode*|
 
