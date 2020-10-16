@@ -65,6 +65,7 @@ A Stream can be configured to perform transactions as follows -
 Each Stream is associated with a DMA request that can be selected out of 8 possible channel requests
 
 ### Channel Mapping in DMA
+
 |![img](/assets/dma-controller/channel-selection-dma.png)|
 |:--:|
 | *Channel Selection Internals*|
