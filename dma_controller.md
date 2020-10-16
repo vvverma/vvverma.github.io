@@ -121,6 +121,35 @@ Each time a peripheral request occurs, data is moved from memory to peripheral d
 	In FIFO mode, once the Stream is enabled, the FIFO will be preloaded fully from memory. When peripheral requests for a data transfer the contents of the FIFO are flushed and stored into the destination.When is level if the FIFO is lower than or equal to the predefined threshold level, the FIFO is fully reloaded with data from the memory. In this case, FIFO threshold settings in needed. FIFO in stm32f446xx is 4 bytes. Threshold settings can be done for 1 byte (1/4), 2 bytes (2/4), 3 bytes (3/4) and 4 bytes (4/4).
 Register used to set FIFO Threshold Settings is *DMA_SxFCR* (x=0..7)
 
+### Steps to Initialize Direct Memory Access Controller
+
+* _Step 1)_ Enable the Clock for the DMA1 or DMA2 as required
+
+* _Step 2)_ Identify the STREAM needed as per peripheral
+
+* _Step 3)_ Identify the Channel Number needed as per peripheral
+
+* _Step 4)_ Porgram the Source Address
+
+* _Step 5)_ Program the Destination Address
+
+* _Step 6)_ Program the number of data items to transfer or send
+
+* _Step 7)_ Select/Set the direction of data transfer amongst Memory to Peripheral (m2p), Peripheral to Memory (p2m) or Memory to memory (m2m)
+
+* _Step 8)_ Program the Source and Destination data width
+
+* _Step 9)_ Select the mode of transfer Direct Mode or FIFO mode
+
+* _Step 10)_ Select FIFO threshold if we have enabled FIFO mode
+
+* _Step 11)_ Enable Circular Buffer mode if required
+
+* _Step 12)_ Select between transfer mode: Single Transfer Mode or Burst Transfer Mode
+
+* _Step 13)_ Configuire the STREAM Priority
+
+* _Step 14)_ Enable the Stream
 
 
 ### Current Requirement from DMA1 and DMA2
