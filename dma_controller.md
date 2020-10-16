@@ -38,6 +38,7 @@ The DMA can be used with the main peripherals:
 |*Block Diagram*|
 
 ### Multi-AHB bus matrix
+
 |![Multi AHB bus Matrix](/assets/dma-controller/ahb-bus-matrix.png)|
 |:--:|
 |*AHB Bus Matrix*|
