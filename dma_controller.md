@@ -156,3 +156,4 @@ Register used to set FIFO Threshold Settings is *DMA_SxFCR* (x=0..7)
 
 ### Current Requirement from DMA1 and DMA2
 
+- [Table of Contents](README.md)
