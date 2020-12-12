@@ -5,6 +5,7 @@
 - [Types of Memory in LCD](#types-of-memory-in-lcd)
 - [Pin Description](#pin-description)
 - [Reference](#reference)
+- [Table of Contents](ReadMd.md)
 
 <!-- toc -->
 
