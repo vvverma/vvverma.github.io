@@ -5,7 +5,7 @@
 - [Types of Memory in LCD](#types-of-memory-in-lcd)
 - [Pin Description](#pin-description)
 - [Reference](#reference)
-- [Table of Contents](README.md)
+- [Back Main Page](README.md)
 
 <!-- toc -->
 
