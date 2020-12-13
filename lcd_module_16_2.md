@@ -1,11 +1,10 @@
-
+#### [Back to Main Page](README.md)
 # Table of Contents
 
 - [Modes in 16X2 LCD](#modes-in-16x2-lcd)
 - [Types of Memory in LCD](#types-of-memory-in-lcd)
 - [Pin Description](#pin-description)
 - [Reference](#reference)
-- [Back Main Page](README.md)
 
 <!-- toc -->
 
