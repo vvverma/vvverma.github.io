@@ -6,8 +6,3 @@
 * [General Embedded Linux Boot Sequence](boot_process.md)
 * [LCD Module information](lcd_module_16_2.md)
 
-
----
-youtubeId: lDi9uFcD7XI
----
-{% include youtubePlayer.html id=page.youtubeId %}
