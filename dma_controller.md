@@ -1,4 +1,4 @@
-#### [Back to Main Page](README.md)
+[Back to Main Page](README.md)
 
 # Direct Memory Access Controller
 
