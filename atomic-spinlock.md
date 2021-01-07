@@ -1,6 +1,10 @@
+[Back to Main Page](README.md)
 
 Atomic Operations
 ==================
+
+* TOC
+{:toc}
 
 Several assembly language instructions are of type “read-modify-write”
 	they access a memory location twice,
