@@ -9,7 +9,7 @@ Softirqs
 
 Softirqs are bottom halves that run at a high priority but with hardware interrupts enabled
 
-Implementation: kernel/softirq.c
+Implementation: kernel/softirq.c [kernel/softirq.c](https://elixir.bootlin.com/linux/latest/source/kernel/softirq.c)
 
 Header File: <linux/softirq.h>
 
