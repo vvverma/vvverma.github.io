@@ -1,5 +1,11 @@
+[Back to Main Page](README.md)
+
 Softirqs 
 ============
+
+* TOC
+{:toc}
+
 
 Softirqs are bottom halves that run at a high priority but with hardware interrupts enabled
 
