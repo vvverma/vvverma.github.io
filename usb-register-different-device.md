@@ -98,7 +98,7 @@ Add the script given below to /etc/rc.local before exit 0
 P.S: Make sure to create below file with execute permissions chmod +x /root/pi-usb-config.sh
 
 
-##Filename: pi-usb-config.sh
+**Filename: pi-usb-config.sh**
 ```
 #bin/bash
 # this file is from: https://github.com/ckuethe/usbarmory/wiki/USB-Gadgets
