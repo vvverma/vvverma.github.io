@@ -13,7 +13,6 @@
 * [General Embedded Linux Boot Sequence](boot-process.md)
 * [Raspberry Pi 400: Ipad Pro as Display Monitor over USB-C](pi400-use-ipad-pro-display.md)
 
-
 ## Bare Metal Programming
 * [DMA Controller](dma-controller.md)
 * [LCD Module information](lcd-module-16x2.md)
