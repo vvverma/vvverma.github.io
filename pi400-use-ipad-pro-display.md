@@ -4,7 +4,7 @@
 * TOC
 {:toc}
 
-# Requirements 
+## Requirements 
 
 * Raspberry Pi 400 Development Board
 * Raspbian Pi OS flashed on to SD-Card
@@ -13,12 +13,12 @@
     * Using GUI has a benefit of using PI400 Keyboard and Mouse Support (Here we discuss this)
     * Using Non-GUI, need to use Ipad pro keybaord to type commands
 
-# Step 1: Enable SSH/VNC on Raspberry Pi OS
+## Step 1: Enable SSH/VNC on Raspberry Pi OS
 
 Click the Raspberry Pi menu icon and choose Preferences > Raspberry Pi Configuration. Click Interfaces and set both SSH and VNC to Enabled. Click OK to close the Raspberry Pi Configuration tool.
 You can also use raspi-config command also from command line option
 
-# Step 2: Make sure everything is Up-to-date on Raspiberry Pi OS
+## Step 2: Make sure everything is Up-to-date on Raspiberry Pi OS
 
 ```
 sudo apt update
@@ -26,7 +26,7 @@ sudo apt full-upgrade
 sudo reboot
 
 ```
-# Step 3: Update the /boot/config.txt
+## Step 3: Update the /boot/config.txt
 
 Uncommment following lines from /boot/config.txt
 
@@ -41,7 +41,7 @@ And add following lines to end of /boot/config.txt
 dtoverlay=dwc2
 ````
 
-# Step 4: Update the /boot/cmdline.txt
+## Step 4: Update the /boot/cmdline.txt
 
 Add a new line below console=serial0, … and add the following:
 
@@ -49,7 +49,7 @@ Add a new line below console=serial0, … and add the following:
 modules-load=dwc2
 ```
 
-# Step 5: Update the /etc/modules
+## Step 5: Update the /etc/modules
 
 Add a new line in this file with the following module name -
 
@@ -96,7 +96,7 @@ iface usb0 inet static
 **Our Fixed IP address is 10.55.0.1**. We will use this (or raspberrypi.local) to SSH and VNC into Raspberry Pi.
 
 
-# Script to Run on Boot
+## Script to Run on Boot
 Add the script given below to /etc/rc.local before exit 0
 P.S: Make sure to create below file with execute permissions chmod +x /root/pi-usb-config.sh
 
@@ -138,7 +138,7 @@ ifup usb0
 service dnsmasq restart
 ```
 
-# References 
+## References 
 * [Ben Hardill's Website](https://www.hardill.me.uk/wordpress/2019/11/02/pi4-usb-c-gadget/)
 
 
