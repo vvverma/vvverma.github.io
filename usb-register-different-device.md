@@ -1,5 +1,8 @@
+[Back to Main Page](README.md)
 # Ipad Pro as a Display to Pi400-Keyboard Over USB-C
-{toc:}
+
+* TOC
+{:toc}
 
 # Requirements 
 
