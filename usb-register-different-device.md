@@ -139,6 +139,6 @@ service dnsmasq restart
 ```
 
 # References 
-* ![Ben Hardill's Website] (https://www.hardill.me.uk/wordpress/2019/11/02/pi4-usb-c-gadget/)
+* [Ben Hardill's Website](https://www.hardill.me.uk/wordpress/2019/11/02/pi4-usb-c-gadget/)
 
 
