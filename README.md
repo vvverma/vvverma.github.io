@@ -7,7 +7,7 @@
 
 ## Operating System
 * [Linux Kernel Concept: Atomicity](linux-kernel-atomicity.md)
-* [Linux Kernel Concept: Spinlock](atomic-spinlock.md)
+* [Linux Kernel Concept: Spinlock](linux-kernel-spinlock.md)
 * [Linux Kernel Concept: SoftIRQs](soft-irqs.md)
 
 
