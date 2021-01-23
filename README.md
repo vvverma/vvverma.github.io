@@ -6,7 +6,7 @@
 * [ARMv8-A: Exception Model](arm-v8a-exception-model.md)
 
 ## Operating System
-* [Linux Kernel Concept: Atomicity](linux-kerne-atomicity.md)
+* [Linux Kernel Concept: Atomicity](linux-kernel-atomicity.md)
 * [Linux Kernel Concept: Spinlock](atomic-spinlock.md)
 * [Linux Kernel Concept: SoftIRQs](soft-irqs.md)
 
